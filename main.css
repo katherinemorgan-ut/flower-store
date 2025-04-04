@@ -1,0 +1,17 @@
+table, tr, th, td, caption {
+    border: 1px solid #eee;
+    font-family:Arial, Helvetica, sans-serif;
+    border-collapse:collapse;
+    padding:0.5rem;
+}
+
+pre {
+    font-family:'Times New Roman', Times, serif;
+}
+
+body {
+    margin: auto;
+    max-width: 550px;
+    padding: 200px;
+    border: solid;
+}
