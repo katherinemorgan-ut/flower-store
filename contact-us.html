@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="This contains the flower shop's store hours."
+    />
+    <meta name="author" content="KMorgan" />
+    <meta name="keywords" content="HTML, CSS, flowers, flowershop" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Daisy Chain Flower Shop</title>
+    <link rel="icon" href="img/flower-logo.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="main.css" type="text/css" />
+  </head>
+
+  <body>
+    <h1>Contact Us</h1>
+    <nav>
+      <ul>
+        <li>
+          <a href="/index.html">Home</a>
+        </li>
+        <li>
+          <a href="/index.html#about-the-store">About Daisy Chain Flower Shop</a>
+        </li>
+        <li>
+          <a href="/index.html#shop-options">Shop</a>
+        </li>
+        <li>
+          <a href="/store-hours.html">Store Hours</a>
+        </li>
+      </ul>
+    </nav>
+
+    <figure>
+      <img
+        src="/img/daffodils.jpg"
+        alt="A few white daffodils in a blue pot"
+        width="400"
+        height="600"
+      />
+      <figcaption>We sell perennials too!</figcaption>
+    </figure>
+
+    <h2>Our Contact Form</h2>
+    <form action="https://httpbin.org/get" method="get">
+      <fieldset>
+        <legend>Send Us A Message</legend>
+        <br />
+        <label for="form_name">Name</label>
+        <input
+          type="text"
+          id="form_name"
+          name="form_name"
+          placeholder="your name"
+        /><br /><br />
+
+        <label for="form_email">Email</label>
+        <input
+          type="text"
+          id="form_email"
+          name="form_email"
+          placeholder="your email"
+        /><br /><br />
+
+        <label for="form_message">Your Message:</label><br />
+        <textarea
+          id="form_message"
+          name="form_message"
+          placeholder="Type your message here"
+          rows="10"
+          cols="60"
+        ></textarea>
+      </fieldset>
+
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+
+    <h2>Our Location</h2>
+    <p>
+      <em>
+        1234 Midvale, Building 3 <br />
+        Midvale, UT 12345-12345 <br /><br />
+
+        Phone:
+        <a href="tel:555-555-5555">555-555-5555</a>
+      </em>
+    </p>
+
+    <a href="#">Back to Top</a>
+
+    <hr />
+
+    <p>Copyright &#169; Daisy Chain Flower Shop</p>
+  </body>
+</html>
